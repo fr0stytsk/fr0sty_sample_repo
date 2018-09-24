@@ -1,0 +1,1 @@
+UPDATE mailbox SET maildir=CONCAT('ssmu.ru/',username,'/'),local_part=username,username=CONCAT(username,'@ssmu.ru'),domain='ssmu.ru',modified=CURRENT_TIMESTAMP
